@@ -8,6 +8,7 @@ services:
   - type: web
     name: lexai
     env: python
+    plan: free
     buildCommand: "./build.sh"
     startCommand: "gunicorn lexai_backend.wsgi:application"
     envVars:
