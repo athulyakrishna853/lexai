@@ -1,7 +1,7 @@
-const API_URL = "http://127.0.0.1:8000/api/queries/";
-const UPLOAD_API_URL = "http://127.0.0.1:8000/api/upload-document/";
-const AUTH_REGISTER_URL = "http://127.0.0.1:8000/api/auth/register/";
-const AUTH_LOGIN_URL = "http://127.0.0.1:8000/api/auth/login/";
+const API_URL = "/api/queries/";
+const UPLOAD_API_URL = "/api/upload-document/";
+const AUTH_REGISTER_URL = "/api/auth/register/";
+const AUTH_LOGIN_URL = "/api/auth/login/";
 
 // ================= DOM ELEMENTS ================= //
 const layers = {
